@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-class Single extends React.Component {
+const Single = React.createClass({
   render() {
     return (
       <div className="single-photo">
@@ -9,6 +9,6 @@ class Single extends React.Component {
       </div>
     )
   }
-};
+});
 
 export default Single;
